@@ -11,10 +11,19 @@
     "install-all": "npm install && cd server && npm install && cd ../client && npm install",
     "start": "cd server && npm start"
   },
-  "keywords": ["fantasy football", "draft", "optimization", "react", "node"],
+  "keywords": [
+    "fantasy football",
+    "draft",
+    "optimization",
+    "react",
+    "node"
+  ],
   "author": "Fantasy Draft Calculator",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.30.1"
   }
 }
