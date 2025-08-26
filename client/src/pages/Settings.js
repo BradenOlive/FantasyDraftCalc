@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDraft } from '../context/DraftContext';
-import { FaCog, FaSave, FaUndo, FaRefresh } from 'react-icons/fa';
+import { FaCog, FaSave, FaUndo, FaSync } from 'react-icons/fa';
 import './Settings.css';
 
 const Settings = () => {
@@ -415,7 +415,7 @@ const Settings = () => {
               className="btn btn-primary action-btn"
               onClick={() => window.location.reload()}
             >
-              <FaRefresh />
+              <FaSync />
               Refresh Data
             </button>
           </div>
